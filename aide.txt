@@ -1,0 +1,15 @@
+java Hosto FILE.ca [-solo -multi[:host]] [-human -computer [-sI]] [-help]
+    -solo
+       Lance le programme en mode solo
+    -multi[:host]
+       Lance le programme en mode multi (partie 3 du projet).
+       Si aucun hote n’est précisé, le programme démarre en tant que serveur.
+       Sinon, il démarre en tant que client et se connecte au serveur ’host’
+    -human
+       Le programme est dirigé par un humain
+    -computer -sI
+       Le programme est dirigé par l’ordinateur, suivant la stratégie ’I’ (entre 1 et 5)
+       Si aucune stratégie n’est précisée, celle qui est considérée comme la plus
+       efficace est utilisée par défaut
+    -help
+       Affiche cette aide
